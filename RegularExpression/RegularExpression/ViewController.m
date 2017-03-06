@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "ConanRegularExp.h"
+#import "NSString+ConanRegularExp.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *RegularStr=@"sdgfsd";
+    
+ BOOL phoneNum =  [ConanRegularExp ConanRegularExpressionchecking_SpecialChar:RegularStr];
+    
+     NSLog(@"phoneNum:%@", phoneNum?@"YES":@"NO");
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

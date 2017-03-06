@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B11DBE1E6D12E30023981F /* ConanRegularExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B11DBA1E6D12E30023981F /* ConanRegularExp.m */; };
+		27B11DBF1E6D12E30023981F /* NSString+ConanRegularExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B11DBD1E6D12E30023981F /* NSString+ConanRegularExp.m */; };
 		27EF32451E64219F0042ABBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF32441E64219F0042ABBF /* main.m */; };
 		27EF32481E64219F0042ABBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF32471E64219F0042ABBF /* AppDelegate.m */; };
 		27EF324B1E64219F0042ABBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF324A1E64219F0042ABBF /* ViewController.m */; };
@@ -35,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27B11DB91E6D12E30023981F /* ConanRegularExp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConanRegularExp.h; sourceTree = "<group>"; };
+		27B11DBA1E6D12E30023981F /* ConanRegularExp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConanRegularExp.m; sourceTree = "<group>"; };
+		27B11DBB1E6D12E30023981F /* ConanRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConanRegularExpression.h; sourceTree = "<group>"; };
+		27B11DBC1E6D12E30023981F /* NSString+ConanRegularExp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ConanRegularExp.h"; sourceTree = "<group>"; };
+		27B11DBD1E6D12E30023981F /* NSString+ConanRegularExp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ConanRegularExp.m"; sourceTree = "<group>"; };
 		27EF32401E64219F0042ABBF /* RegularExpression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegularExpression.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EF32441E64219F0042ABBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27EF32461E64219F0042ABBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +112,11 @@
 				27EF32471E64219F0042ABBF /* AppDelegate.m */,
 				27EF32491E64219F0042ABBF /* ViewController.h */,
 				27EF324A1E64219F0042ABBF /* ViewController.m */,
+				27B11DB91E6D12E30023981F /* ConanRegularExp.h */,
+				27B11DBA1E6D12E30023981F /* ConanRegularExp.m */,
+				27B11DBB1E6D12E30023981F /* ConanRegularExpression.h */,
+				27B11DBC1E6D12E30023981F /* NSString+ConanRegularExp.h */,
+				27B11DBD1E6D12E30023981F /* NSString+ConanRegularExp.m */,
 				27EF324C1E64219F0042ABBF /* Main.storyboard */,
 				27EF324F1E64219F0042ABBF /* Assets.xcassets */,
 				27EF32511E64219F0042ABBF /* LaunchScreen.storyboard */,
@@ -277,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27EF324B1E64219F0042ABBF /* ViewController.m in Sources */,
+				27B11DBF1E6D12E30023981F /* NSString+ConanRegularExp.m in Sources */,
 				27EF32481E64219F0042ABBF /* AppDelegate.m in Sources */,
+				27B11DBE1E6D12E30023981F /* ConanRegularExp.m in Sources */,
 				27EF32451E64219F0042ABBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +532,7 @@
 				27EF326F1E64219F0042ABBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27EF32701E64219F0042ABBF /* Build configuration list for PBXNativeTarget "RegularExpressionTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				27EF32721E64219F0042ABBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27EF32731E64219F0042ABBF /* Build configuration list for PBXNativeTarget "RegularExpressionUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				27EF32751E64219F0042ABBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
